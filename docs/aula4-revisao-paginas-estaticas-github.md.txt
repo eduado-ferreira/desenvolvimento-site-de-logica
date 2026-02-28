@@ -1,0 +1,58 @@
+# 🌐 Criação de Páginas Estáticas no GitHub
+
+## 📌 Definição
+
+A criação de páginas estáticas no GitHub consiste em publicar um site simples (feito com HTML, CSS e JavaScript) utilizando o serviço **GitHub Pages**, oferecido pela plataforma GitHub.
+
+Uma página estática é aquela cujo conteúdo é fixo, ou seja, não depende de banco de dados ou processamento no servidor. O navegador apenas interpreta os arquivos e exibe o conteúdo ao usuário.
+
+---
+
+## 🧱 O que é uma Página Estática?
+
+Uma página estática é um site composto por arquivos como:
+
+- `HTML` → Estrutura do conteúdo  
+- `CSS` → Estilização visual  
+- `JavaScript` → Funcionalidades e interações (opcional)  
+
+Ela não altera seu conteúdo dinamicamente no servidor.
+
+### Exemplos de uso:
+
+- Portfólio profissional  
+- Currículo online  
+- Página de apresentação de projeto  
+- Documentação técnica  
+- Página institucional simples  
+
+---
+
+## 🚀 O que é GitHub Pages?
+
+O GitHub Pages é um serviço gratuito que permite hospedar sites diretamente de um repositório do GitHub.
+
+Ele utiliza os arquivos armazenados no repositório e os transforma em um site público acessível por um link na internet.
+
+---
+
+## 🛠️ Como Criar uma Página Estática no GitHub (Passo a Passo)
+
+### 1️⃣ Criar uma Conta no GitHub
+
+Acesse o site do GitHub e crie sua conta gratuita.
+
+---
+
+### 2️⃣ Criar um Novo Repositório
+
+- Clique em **New repository**
+- Escolha um nome para o projeto
+- Defina como **Public**
+- Clique em **Create repository**
+
+---
+
+### 3️⃣ Criar o Arquivo Principal
+
+Dentro do repositório, crie um arquivo chamado:
