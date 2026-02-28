@@ -1,0 +1,148 @@
+```markdown
+# Estruturas de Decisão na Lógica de Programação
+
+As **estruturas de decisão** são mecanismos utilizados na programação para permitir que um algoritmo escolha entre diferentes caminhos de execução, dependendo de uma condição.
+
+Elas tornam o programa capaz de tomar decisões com base em dados ou situações específicas.
+
+---
+
+## 1. Conceito Básico
+
+Uma estrutura de decisão funciona a partir de uma **condição lógica**, que pode resultar em:
+
+- Verdadeiro (true)
+- Falso (false)
+
+Dependendo do resultado, o programa executa um bloco de instruções diferente.
+
+Estrutura geral:
+
+SE (condição)  
+    execute ação A  
+SENÃO  
+    execute ação B  
+FIMSE  
+
+---
+
+## 2. Estrutura SE (IF)
+
+Executa um bloco de código apenas se a condição for verdadeira.
+
+Exemplo:
+
+SE idade >= 18 ENTÃO  
+    escreva "Maior de idade"  
+FIMSE  
+
+Se a condição for falsa, nada acontece.
+
+---
+
+## 3. Estrutura SE...SENÃO (IF...ELSE)
+
+Permite executar uma ação caso a condição seja verdadeira e outra caso seja falsa.
+
+Exemplo:
+
+SE nota >= 7 ENTÃO  
+    escreva "Aprovado"  
+SENÃO  
+    escreva "Reprovado"  
+FIMSE  
+
+Nesse caso, sempre uma das duas opções será executada.
+
+---
+
+## 4. Estrutura SE...SENÃO SE...SENÃO
+
+Utilizada quando há múltiplas condições.
+
+Exemplo:
+
+SE nota >= 9 ENTÃO  
+    escreva "Excelente"  
+SENÃO SE nota >= 7 ENTÃO  
+    escreva "Bom"  
+SENÃO  
+    escreva "Precisa melhorar"  
+FIMSE  
+
+As condições são verificadas na ordem em que aparecem.
+
+---
+
+## 5. Estrutura ESCOLHA (SWITCH / CASE)
+
+Usada quando se deseja comparar uma mesma variável com vários valores possíveis.
+
+Exemplo:
+
+ESCOLHA dia  
+    CASO 1:  
+        escreva "Domingo"  
+    CASO 2:  
+        escreva "Segunda-feira"  
+    CASO CONTRÁRIO:  
+        escreva "Dia inválido"  
+FIMESCOLHA  
+
+É mais organizada quando existem muitas opções fixas.
+
+---
+
+## 6. Operadores Relacionais
+
+São usados para construir condições.
+
+==  igual  
+!=  diferente  
+>   maior  
+<   menor  
+>=  maior ou igual  
+<=  menor ou igual  
+
+---
+
+## 7. Operadores Lógicos
+
+Permitem combinar condições.
+
+E (AND)  → todas as condições devem ser verdadeiras  
+OU (OR)  → pelo menos uma condição deve ser verdadeira  
+NÃO (NOT) → inverte o valor lógico  
+
+Exemplo:
+
+SE idade >= 18 E possuiCNH = verdadeiro ENTÃO  
+    escreva "Pode dirigir"  
+FIMSE  
+
+---
+
+## 8. Exemplo Prático
+
+Exemplo de um sistema bancário simples:
+
+SE saldo >= valorSaque ENTÃO  
+    saldo = saldo - valorSaque  
+    escreva "Saque realizado"  
+SENÃO  
+    escreva "Saldo insuficiente"  
+FIMSE  
+
+---
+
+## Conclusão
+
+As estruturas de decisão:
+
+- Permitem que o programa reaja a diferentes situações.
+- Tornam os algoritmos dinâmicos.
+- São fundamentais na lógica de programação.
+- São base para validações, jogos, sistemas bancários e qualquer software interativo.
+
+Sem estruturas de decisão, um programa executaria sempre as mesmas instruções, sem considerar as condições do ambiente ou dos dados.
+```
