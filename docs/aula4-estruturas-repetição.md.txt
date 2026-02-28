@@ -1,0 +1,176 @@
+```markdown
+# 🔁 Estruturas de Repetição na Lógica de Programação
+
+As **estruturas de repetição** (também chamadas de **laços de repetição** ou **loops**) são usadas quando precisamos executar um mesmo bloco de instruções várias vezes.
+
+Elas evitam a repetição desnecessária de código e tornam o programa mais organizado, eficiente e fácil de manter.
+
+---
+
+## 📌 Por que usar estruturas de repetição?
+
+Imagine que você precise exibir na tela os números de 1 a 100.
+
+Sem repetição, você teria que escrever:
+
+```
+
+mostrar 1
+mostrar 2
+mostrar 3
+...
+mostrar 100
+
+```
+
+Com uma estrutura de repetição, você resolve isso com poucas linhas de código.
+
+---
+
+## 🔄 Tipos Principais de Estruturas de Repetição
+
+Na lógica de programação, existem três estruturas principais:
+
+### 1️⃣ Estrutura **PARA** (FOR)
+
+É usada quando sabemos **quantas vezes** o bloco deve ser executado.
+
+📌 Estrutura lógica:
+
+```
+
+PARA contador de valor_inicial até valor_final FAÇA
+ação
+FIM PARA
+
+```
+
+📌 Exemplo:
+
+```
+
+PARA i de 1 até 10 FAÇA
+mostrar i
+FIM PARA
+
+```
+
+✔ Executa 10 vezes  
+✔ Ideal quando há quantidade definida  
+
+---
+
+### 2️⃣ Estrutura **ENQUANTO** (WHILE)
+
+É usada quando **não sabemos exatamente quantas vezes** será executado, mas existe uma **condição** que precisa ser verdadeira.
+
+📌 Estrutura lógica:
+
+```
+
+ENQUANTO condição FAÇA
+ação
+FIM ENQUANTO
+
+```
+
+📌 Exemplo:
+
+```
+
+ENQUANTO senha_digitada for diferente de 1234 FAÇA
+pedir senha
+FIM ENQUANTO
+
+```
+
+✔ Executa enquanto a condição for verdadeira  
+✔ Pode executar 0 ou mais vezes  
+
+---
+
+### 3️⃣ Estrutura **REPITA...ATÉ** (DO WHILE)
+
+Executa o bloco **pelo menos uma vez**, pois a verificação da condição acontece no final.
+
+📌 Estrutura lógica:
+
+```
+
+REPITA
+ação
+ATÉ condição
+
+```
+
+📌 Exemplo:
+
+```
+
+REPITA
+pedir número
+ATÉ número > 0
+
+```
+
+✔ Executa no mínimo 1 vez  
+✔ Ideal quando precisamos garantir uma execução inicial  
+
+---
+
+## 🧠 Conceitos Importantes
+
+### 🔢 Variável de Controle
+É a variável que controla o número de repetições.
+
+Exemplo:
+```
+
+i = i + 1
+
+```
+
+---
+
+### ⚠ Cuidado com Loop Infinito
+
+Um **loop infinito** acontece quando a condição nunca se torna falsa.
+
+Exemplo errado:
+```
+
+ENQUANTO 1 < 2 FAÇA
+mostrar "Olá"
+FIM ENQUANTO
+
+```
+
+Isso nunca termina!
+
+---
+
+## 🎯 Quando Usar Cada Um?
+
+| Situação | Estrutura Ideal |
+|----------|----------------|
+| Sei quantas vezes repetir | PARA |
+| Depende de uma condição | ENQUANTO |
+| Precisa executar ao menos uma vez | REPITA...ATÉ |
+
+---
+
+## 📚 Conclusão
+
+As estruturas de repetição são fundamentais na lógica de programação porque:
+
+- Automatizam tarefas repetitivas
+- Reduzem código duplicado
+- Melhoram a organização do programa
+- Tornam algoritmos mais eficientes
+
+Elas são a base para criação de sistemas, jogos, cálculos automáticos e praticamente qualquer software.
+
+---
+
+Se quiser, posso montar também exercícios práticos para treinar 👍
+```
